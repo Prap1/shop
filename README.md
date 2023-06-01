@@ -40,8 +40,7 @@ git clone https://github.com/Prap1/multiVendorEcommerce.git
    Seller Product Management
    Admin Dashboard
    
-##License
-  This project is licensed under the [MIT License](LICENSE).
+
      
   
  
