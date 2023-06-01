@@ -33,14 +33,14 @@ git clone https://github.com/Prap1/multiVendorEcommerce.git
      cd backend
      npm run dev
    
-#Features
+##Features
    User Registration and Authentication
    Product Listing and Search
    Shopping Cart
    Seller Product Management
    Admin Dashboard
    
-#License
+##License
   This project is licensed under the [MIT License](LICENSE).
      
   
