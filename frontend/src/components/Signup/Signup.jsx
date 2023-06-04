@@ -4,7 +4,7 @@ import styles from "../../styles/styles.js";
 import { Link } from "react-router-dom";
 import { RxAvatar } from "react-icons/rx";
  import  axios  from 'axios';
-// import { server } from "../../server.js";
+import { server } from "../../server.js";
 const Signup = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
@@ -17,7 +17,7 @@ const Signup = () => {
     setAvatar(file);
   };
   const handleSubmit = async (e) => {
-    console.log("submit");
+    axios.post()
   };
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
